@@ -83,3 +83,53 @@ button {
   background-color: #37cc8a;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+/* For screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+  .main-section {
+    flex-direction: column;
+  }
+  .left-section {
+    width: 80%;
+  }
+  .right-section {
+    width: 100%;
+  }
+  .form-section {
+    width: 80%;
+  }
+  .button-free-trials {
+    width: 60%;
+  }
+  .form-group {
+    width: 60%;
+  }
+}
+
+/* For screens smaller than 480px */
+@media only screen and (max-width: 480px) {
+  .main-section {
+    font-size: smaller;
+  }
+  .main-heading {
+    font-size: x-large;
+  }
+  .main-info {
+    font-size: medium;
+  }
+  .left-section {
+    width: 100%;
+  }
+  .right-section {
+    width: 100%;
+  }
+  .form-section {
+    width: 100%;
+  }
+  .button-free-trials {
+    width: 100%;
+  }
+  .form-group {
+    width: 100%;
+  }
+}
